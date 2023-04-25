@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GlizzyGobblersFr</title>
+    <!-- Add Bootstrap 5 CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="#">Glizzy Gobblers</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="mt-4 p-5 bg-primary text-white rounded">
+                    <h1>Glizzy Gobblers</h1>
+                    <h2>Feast on Premium Cuts, Fresh to Your Doorstep: Glizzy Gobblers - Your Meaty Marvel in the World of Online Food Shopping!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <h2>Cart</h2>
+                <ul class="list-group cart-items">
+                <!-- Cart items will be dynamically added here -->
+                </ul>
+                <p class="total-price">Total Price: $0.00</p>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-9">
+                    <!-- Product cards go here -->
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="product1.jpg" alt="Product 1" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 1</h5>
+                                    <p class="card-text">Description of Product 1</p>
+                                    <p class="card-text">Price: $9.99</p>
+                                    <button class="btn btn-primary add-to-cart" data-product-id="1">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="product2.jpg" alt="Product 2" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 2</h5>
+                                    <p class="card-text">Description of Product 2</p>
+                                    <p class="card-text">Price: $19.99</p>
+                                    <button class="btn btn-primary add-to-cart" data-product-id="2">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="product3.jpg" alt="Product 3" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 3</h5>
+                                    <p class="card-text">Description of Product 3</p>
+                                    <p class="card-text">Price: $14.99</p>
+                                    <button class="btn btn-primary add-to-cart" data-product-id="3">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Add Bootstrap 5 JS link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    var totalPrice = 0; // Initialize total price to 0
+    // Add to Cart button click event handler
+    $(".add-to-cart").on("click", function() {
+        var productId = $(this).data("product-id");
+        var productName = $(this).siblings(".card-title").text();
+        var productPrice = $(this).siblings(".card-text").last().text();
+        productPrice = parseFloat(productPrice.replace(/[^0-9.]/g, ""));
+        var cartItem = $(".cart-items").find("[data-product-id='" + productId + "']");
+        if (cartItem.length > 0) {
+            var quantity = parseInt(cartItem.find(".cart-item-quantity").text()) + 1;
+            cartItem.find(".cart-item-quantity").text(quantity);
+            var totalPrice = productPrice * quantity;
+            cartItem.find(".cart-item-price").text("$" + productPrice.toFixed(2));
+        } else {
+            var cartItemHtml = '<li class="list-group-item" data-product-id="' + productId + '">' +
+                '<div class="d-flex justify-content-between">' +
+                '<span class="cart-item-name">' + productName + '</span>' +
+                '<span class="cart-item-quantity">1</span>' +
+                '</div>' +
+                '<div class="d-flex justify-content-between">' +
+                '<span class="cart-item-price">$' + productPrice.toFixed(2) + '</span>' +
+                '<button class="btn btn-danger btn-sm remove-from-cart">Remove</button>' +
+                '</div>' +
+                '</li>';
+            $(".cart-items").append(cartItemHtml);
+        }
+        
+        totalPrice = 0; // Reset total price to 0
+        $(".cart-items .list-group-item").each(function() {
+            var quantity = parseInt($(this).find(".cart-item-quantity").text());
+            var price = parseFloat($(this).find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+            totalPrice += (quantity * price);
+        });
+        $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
+
+    });
+
+    // Remove from Cart button click event handler
+    $(".cart-items").on("click", ".remove-from-cart", function() {
+        var cartItem = $(this).closest(".list-group-item");
+        var productId = cartItem.data("product-id");
+        var productPrice = parseFloat(cartItem.find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+        var quantity = parseInt(cartItem.find(".cart-item-quantity").text());
+        if (quantity > 1) {
+            quantity--;
+            var totalPrice = productPrice * quantity;
+            cartItem.find(".cart-item-quantity").text(quantity);
+            cartItem.find(".cart-item-price").text("$" + productPrice.toFixed(2));
+        } else {
+            cartItem.remove();
+        }
+        totalPrice = 0; // Reset total price to 0
+        $(".cart-items .list-group-item").each(function() {
+            var quantity = parseInt($(this).find(".cart-item-quantity").text());
+            var price = parseFloat($(this).find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+            totalPrice += (quantity * price);
+        });
+        $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
+    });
+    
+});
+
+</script>
+
+
+</body>
+
+</html>
