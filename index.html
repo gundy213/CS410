@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <title>GlizzyGobblersFr</title>
     <!-- Add Bootstrap 5 CSS link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <a class="navbar-brand" href="#">Glizzy Gobblers</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -33,27 +36,31 @@
                 </ul>
             </div>
         </nav>
+
     </header>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-9">
                 <div class="mt-4 p-5 bg-primary text-white rounded">
                     <h1>Glizzy Gobblers</h1>
-                    <h2>Feast on Premium Cuts, Fresh to Your Doorstep: Glizzy Gobblers - Your Meaty Marvel in the World of Online Food Shopping!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+                    <h2>Feast on Premium Cuts, Fresh to Your Doorstep: Glizzy Gobblers - Your Meaty Marvel in the World
+                        of Online Food Shopping!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat..</p>
                 </div>
             </div>
-            
+
             <div class="col-md-3">
                 <h2>Cart</h2>
                 <ul class="list-group cart-items">
-                <!-- Cart items will be dynamically added here -->
+                    <!-- Cart items will be dynamically added here -->
                 </ul>
                 <p class="total-price">Total Price: $0.00</p>
             </div>
         </div>
-        
-        
+
+
     </div>
     <div>
         <div class="container mt-5">
@@ -96,79 +103,120 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
-    
+
 
     <!-- Add Bootstrap 5 JS link -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(document).ready(function() {
-    var totalPrice = 0; // Initialize total price to 0
-    // Add to Cart button click event handler
-    $(".add-to-cart").on("click", function() {
-        var productId = $(this).data("product-id");
-        var productName = $(this).siblings(".card-title").text();
-        var productPrice = $(this).siblings(".card-text").last().text();
-        productPrice = parseFloat(productPrice.replace(/[^0-9.]/g, ""));
-        var cartItem = $(".cart-items").find("[data-product-id='" + productId + "']");
-        if (cartItem.length > 0) {
-            var quantity = parseInt(cartItem.find(".cart-item-quantity").text()) + 1;
-            cartItem.find(".cart-item-quantity").text(quantity);
-            var totalPrice = productPrice * quantity;
-            cartItem.find(".cart-item-price").text("$" + productPrice.toFixed(2));
-        } else {
-            var cartItemHtml = '<li class="list-group-item" data-product-id="' + productId + '">' +
-                '<div class="d-flex justify-content-between">' +
-                '<span class="cart-item-name">' + productName + '</span>' +
-                '<span class="cart-item-quantity">1</span>' +
-                '</div>' +
-                '<div class="d-flex justify-content-between">' +
-                '<span class="cart-item-price">$' + productPrice.toFixed(2) + '</span>' +
-                '<button class="btn btn-danger btn-sm remove-from-cart">Remove</button>' +
-                '</div>' +
-                '</li>';
-            $(".cart-items").append(cartItemHtml);
-        }
-        
-        totalPrice = 0; // Reset total price to 0
-        $(".cart-items .list-group-item").each(function() {
-            var quantity = parseInt($(this).find(".cart-item-quantity").text());
-            var price = parseFloat($(this).find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
-            totalPrice += (quantity * price);
+    <script>
+        $(document).ready(function () {
+            var totalPrice = 0; // Initialize total price to 0
+            // Add to Cart button click event handler
+            $(".add-to-cart").on("click", function () {
+                var productId = $(this).data("product-id");
+                var productName = $(this).siblings(".card-title").text();
+                var productPrice = $(this).siblings(".card-text").last().text();
+                productPrice = parseFloat(productPrice.replace(/[^0-9.]/g, ""));
+                var cartItem = $(".cart-items").find("[data-product-id='" + productId + "']");
+                if (cartItem.length > 0) {
+                    var quantity = parseInt(cartItem.find(".cart-item-quantity").text()) + 1;
+                    cartItem.find(".cart-item-quantity").text(quantity);
+                    var totalPrice = productPrice * quantity;
+                    cartItem.find(".cart-item-price").text("$" + productPrice.toFixed(2));
+                } else {
+                    var cartItemHtml = '<li class="list-group-item" data-product-id="' + productId + '">' +
+                        '<div class="d-flex justify-content-between">' +
+                        '<span class="cart-item-name">' + productName + '</span>' +
+                        '<span class="cart-item-quantity">1</span>' +
+                        '</div>' +
+                        '<div class="d-flex justify-content-between">' +
+                        '<span class="cart-item-price">$' + productPrice.toFixed(2) + '</span>' +
+                        '<button class="btn btn-danger btn-sm add-from-cart">Add</button>' +
+                        '<button class="btn btn-danger btn-sm remove-from-cart">Remove</button>' +
+                        '<button class="btn btn-danger btn-sm remove-all-from-cart">Remove All</button>' +
+                        '</div>' +
+                        '</li>';
+                    $(".cart-items").append(cartItemHtml);
+                }
+
+                totalPrice = 0; // Reset total price to 0
+                $(".cart-items .list-group-item").each(function () {
+                    var quantity = parseInt($(this).find(".cart-item-quantity").text());
+                    var price = parseFloat($(this).find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+                    totalPrice += (quantity * price);
+                });
+                $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
+
+            });
+
+            // Add from Cart button click event handler
+            $(".cart-items").on("click", ".add-from-cart", function () {
+                var cartItem = $(this).closest(".list-group-item");
+                var productId = cartItem.data("product-id");
+                var productPrice = parseFloat(cartItem.find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+                var quantity = parseInt(cartItem.find(".cart-item-quantity").text());
+                quantity++;
+                var totalPrice = productPrice * quantity;
+                cartItem.find(".cart-item-quantity").text(quantity);
+                cartItem.find(".cart-item-price").text("$" + productPrice.toFixed(2));
+
+                totalPrice = 0; // Reset total price to 0
+                $(".cart-items .list-group-item").each(function () {
+                    var quantity = parseInt($(this).find(".cart-item-quantity").text());
+                    var price = parseFloat($(this).find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+                    totalPrice += (quantity * price);
+                });
+                $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
+            });
+
+            // Remove from Cart button click event handler
+            $(".cart-items").on("click", ".remove-from-cart", function () {
+                var cartItem = $(this).closest(".list-group-item");
+                var productId = cartItem.data("product-id");
+                var productPrice = parseFloat(cartItem.find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+                var quantity = parseInt(cartItem.find(".cart-item-quantity").text());
+                if (quantity > 1) {
+                    quantity--;
+                    var totalPrice = productPrice * quantity;
+                    cartItem.find(".cart-item-quantity").text(quantity);
+                    cartItem.find(".cart-item-price").text("$" + productPrice.toFixed(2));
+                } else {
+                    cartItem.remove();
+                }
+                totalPrice = 0; // Reset total price to 0
+                $(".cart-items .list-group-item").each(function () {
+                    var quantity = parseInt($(this).find(".cart-item-quantity").text());
+                    var price = parseFloat($(this).find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+                    totalPrice += (quantity * price);
+                });
+                $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
+            });
+
+            // Remove all from Cart button click event handler
+            $(".cart-items").on("click", ".remove-all-from-cart", function () {
+                var cartItem = $(this).closest(".list-group-item");
+                var productId = cartItem.data("product-id");
+                var productName = $(this).siblings(".card-title").text();
+                var productPrice = parseFloat(cartItem.find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+                var quantity = parseInt(cartItem.find(".cart-item-quantity").text());
+                if (confirm("Are you sure you want to remove this item?") == true) {
+                    cartItem.remove();
+                    totalPrice = 0; // Reset total price to 0
+                    $(".cart-items .list-group-item").each(function () {
+                        var quantity = parseInt($(this).find(".cart-item-quantity").text());
+                        var price = parseFloat($(this).find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+                        totalPrice += (quantity * price);
+                    });
+                    $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
+                }
+            });
+
         });
-        $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
 
-    });
-
-    // Remove from Cart button click event handler
-    $(".cart-items").on("click", ".remove-from-cart", function() {
-        var cartItem = $(this).closest(".list-group-item");
-        var productId = cartItem.data("product-id");
-        var productPrice = parseFloat(cartItem.find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
-        var quantity = parseInt(cartItem.find(".cart-item-quantity").text());
-        if (quantity > 1) {
-            quantity--;
-            var totalPrice = productPrice * quantity;
-            cartItem.find(".cart-item-quantity").text(quantity);
-            cartItem.find(".cart-item-price").text("$" + productPrice.toFixed(2));
-        } else {
-            cartItem.remove();
-        }
-        totalPrice = 0; // Reset total price to 0
-        $(".cart-items .list-group-item").each(function() {
-            var quantity = parseInt($(this).find(".cart-item-quantity").text());
-            var price = parseFloat($(this).find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
-            totalPrice += (quantity * price);
-        });
-        $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
-    });
-    
-});
-
-</script>
+    </script>
 
 
 </body>
