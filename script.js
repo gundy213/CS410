@@ -1,8 +1,9 @@
 const urlParams = new URLSearchParams(window.location.search);
       const query = urlParams.get("q");
 
-      fetch("products.json")
+      fetch("../json/products.json")
         .then((response) => response.json())
+        .then(data => { console.log(data) })
         .then((data) => {
           const results = data.product.filter((product) =>
             product.name.toLowerCase().includes(query.toLowerCase())
