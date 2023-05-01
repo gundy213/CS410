@@ -29,7 +29,16 @@
                         <a class="nav-link" href="#">Deals</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cart</a>
+                        <div class="cart-container">
+                            <a class="nav-link cart-link" href="#">Cart<span class="cart-count">0</span></a>
+                            <div class="cart-box">
+                                <h2>Cart</h2>
+                                <ul class="list-group cart-items">
+                                    <!-- Cart items will be dynamically added here -->
+                                </ul>
+                                <p class="total-price">Total Price: $0.00</p>
+                            </div>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./login.html">Profile</a>
@@ -46,19 +55,12 @@
 
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-xl">
                 <div class="mt-4 p-5 bg-primary text-white rounded" style="background-image: url('images/smorgasbord.jpg'); background-size: cover;">
-                    <h1>Glizzy Gobblers</h1>
-                    <h2>Feast on Premium Cuts, Fresh to Your Doorstep: Glizzy Gobblers - Your Meaty Marvel in the World
+                    <h1 Style="text-shadow: 2px 2px 2px rgba(0,0,0,0.7); text-align: center;">Glizzy Gourmands</h1>
+                    <h2 Style="text-shadow: 2px 2px 2px rgba(0,0,0,0.7); text-align: center;">Feast on Premium Cuts, Fresh to Your Doorstep: Glizzy Gobblers - Your Meaty Marvel in the World
                         of Online Food Shopping!</h2>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <h2>Cart</h2>
-                <ul class="list-group cart-items">
-                    <!-- Cart items will be dynamically added here -->
-                </ul>
-                <p class="total-price">Total Price: $0.00</p>
             </div>
             <div class="container-fluid pt-5">
                 <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="pr-3">Categories</span></h2>
@@ -283,7 +285,7 @@
                     totalPrice += (quantity * price);
                 });
                 $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
-
+                updateCartCount();
             });
 
             // Add from Cart button click event handler
@@ -296,7 +298,6 @@
                 var totalPrice = productPrice * quantity;
                 cartItem.find(".cart-item-quantity").text(quantity);
                 cartItem.find(".cart-item-price").text("$" + productPrice.toFixed(2));
-
                 totalPrice = 0; // Reset total price to 0
                 $(".cart-items .list-group-item").each(function () {
                     var quantity = parseInt($(this).find(".cart-item-quantity").text());
@@ -304,6 +305,7 @@
                     totalPrice += (quantity * price);
                 });
                 $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
+                updateCartCount();
             });
 
             // Remove from Cart button click event handler
@@ -327,6 +329,7 @@
                     totalPrice += (quantity * price);
                 });
                 $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
+                updateCartCount();
             });
 
             // Remove all from Cart button click event handler
@@ -345,8 +348,27 @@
                         totalPrice += (quantity * price);
                     });
                     $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
+                    updateCartCount();
+                    
                 }
             });
+
+            
+            const cartCountEl = document.querySelector('.cart-count');
+
+            function updateCartCount() {
+                var cartCount = 0;
+                $(".cart-items .list-group-item").each(function () {
+                        var quantity = parseInt($(this).find(".cart-item-quantity").text());
+                        cartCount += quantity;
+                    });
+                cartCountEl.textContent = " (" + cartCount + ")";
+                if (cartCount > 0) {
+                    cartCountEl.classList.add('active');
+                } else {
+                    cartCountEl.classList.remove('active');
+                }
+            }
 
         });
 
