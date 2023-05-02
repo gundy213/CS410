@@ -6,6 +6,7 @@
             "description": "Description of Product 1",
             "category": "Dairy",
             "price": 9.99,
+            "dealprice": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
@@ -16,6 +17,7 @@
             "description": "Description of Product 2",
             "category": "Dairy",
             "price": 19.99,
+            "dealprice": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
@@ -26,6 +28,7 @@
             "description": "Description of Product 3",
             "category": "Dairy",
             "price": 14.99,
+            "dealprice": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
@@ -36,6 +39,7 @@
             "description": "Description of Product 4",
             "category": "Dairy",
             "price": 21.99,
+            "dealprice": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
@@ -46,6 +50,7 @@
             "description": "Description of Product 5",
             "category": "Dairy",
             "price": 56.99,
+            "dealprice": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
@@ -56,6 +61,7 @@
             "description": "Description of Product 6",
             "category": "Dairy",
             "price": 1.99,
+            "dealprice": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
