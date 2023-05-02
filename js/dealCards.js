@@ -8,7 +8,7 @@ fetch("../json/deals.json")
     .then(data => {
         //loops though entire array of products
         for (var i = 0; i < data.deal.length; i++) {
-            var productCard = `<div class="col-md-4">\n<div class="card">\n` +
+            var productCard = `<div class="col-md-4 py-3">\n<div class="card">\n` +
                 `<img src="${data.deal[i].image[0]}"alt="${data.deal[i].name}"class="card-img-top">\n` +
                 `<div class="card-body">\n` +
                 `<h5 class="card-title">${data.deal[i].name}</h5>\n` +
