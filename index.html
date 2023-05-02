@@ -5,51 +5,51 @@
     <meta charset="UTF-8">
     <title>GlizzyGobblersFr</title>
     <!-- Add Bootstrap 5 CSS link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <script type="text/javascript" src="js/productCard.js"></script>
-    <script type="script.js"></script>
+    <!-- <script type="text/javascript" src="js/script.js"></script> -->
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand" href="#">Glizzy Gobblers</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Deals</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./login.html">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="cart-container">
-                            <a class="nav-link cart-link" href="#">Cart<span class="cart-count">0</span></a>
-                            <div class="cart-box">
-                                <h2>Cart</h2>
-                                <ul class="list-group cart-items">
-                                    <!-- Cart items will be dynamically added here -->
-                                </ul>
-                                <p class="total-price">Total Price: $0.00</p>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Glizzy Gobblers</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="cart-container">
+                                <a class="nav-link cart-link" href="#">Cart<span class="cart-count">0</span></a>
+                                <div class="cart-box">
+                                    <h2>Cart</h2>
+                                    <ul class="list-group cart-items">
+                                        <!-- Cart items will be dynamically added here -->
+                                    </ul>
+                                    <p class="total-price">Total Price: $0.00</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0" action="search-results.html">
-                    <input class="form-control mr-sm-2" type="search" id="search" name="q" placeholder="Search"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                        </li>
+                    </ul>
+                    <form class="ms-auto">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                </div>
             </div>
         </nav>
 
@@ -58,29 +58,26 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-xl">
-                <div class="mt-4 p-5 bg-primary text-white rounded"
-                    style="background-image: url('images/smorgasbord.jpg'); background-size: cover;">
+                <div class="mt-4 p-5 bg-primary text-white rounded" style="background-image: url('images/smorgasbord.jpg'); background-size: cover;">
                     <h1 Style="text-shadow: 2px 2px 2px rgba(0,0,0,0.7); text-align: center;">Glizzy Gourmands</h1>
-                    <h2 Style="text-shadow: 2px 2px 2px rgba(0,0,0,0.7); text-align: center;">Feast on Premium Cuts,
-                        Fresh to Your Doorstep: Glizzy Gobblers - Your Meaty Marvel in the World
+                    <h2 Style="text-shadow: 2px 2px 2px rgba(0,0,0,0.7); text-align: center;">Feast on Premium Cuts, Fresh to Your Doorstep: Glizzy Gobblers - Your Meaty Marvel in the World
                         of Online Food Shopping!</h2>
                 </div>
             </div>
             <div class="container-fluid pt-5">
-                <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span
-                        class="pr-3">Categories</span></h2>
+                <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="pr-3">Categories</span></h2>
                 <div class="row px-xl-5 pb-3">
-
+                    
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                         <a class="text-decoration-none" href="">
                             <div class="cat-item d-flex flex-column align-items-center mb-4">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Dairy.jpg" alt="">
                                 </div>
-
-                                <h6>Dairy</h6>
-                                <small class="text-body">100 Products</small>
-
+                               
+                                    <h6>Dairy</h6>
+                                    <small class="text-body">100 Products</small>
+                                
                             </div>
                         </a>
                     </div>
@@ -90,8 +87,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/MeatAndPoultry.jpg" alt="">
                                 </div>
-                                <h6>Meat and Poutry</h6>
-                                <small class="text-body">100 Products</small>
+                                    <h6>Meat and Poutry</h6>
+                                    <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -101,8 +98,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Seafood.jpg" alt="">
                                 </div>
-                                <h6>Seafood</h6>
-                                <small class="text-body">100 Products</small>
+                                    <h6>Seafood</h6>
+                                    <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -112,8 +109,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Produce.jpg" alt="">
                                 </div>
-                                <h6>Produce</h6>
-                                <small class="text-body">100 Products</small>
+                                    <h6>Produce</h6>
+                                    <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -123,8 +120,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/BreadAndBakedGoods.jpg" alt="">
                                 </div>
-                                <h6>Breads and Baked Goods</h6>
-                                <small class="text-body">100 Products</small>
+                                    <h6>Breads and Baked Goods</h6>
+                                    <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -134,8 +131,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/CerealAndGrains.jpg" alt="">
                                 </div>
-                                <h6>Cereal and Grains</h6>
-                                <small class="text-body">100 Products</small>
+                                    <h6>Cereal and Grains</h6>
+                                    <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -145,8 +142,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/CannedAndPackagedGoods.jpg" alt="">
                                 </div>
-                                <h6>Canned and Packaged Goods</h6>
-                                <small class="text-body">100 Products</small>
+                                    <h6>Canned and Packaged Goods</h6>
+                                    <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -154,11 +151,10 @@
                         <a class="text-decoration-none" href="">
                             <div class="cat-item d-flex flex-column align-items-center mb-4">
                                 <div class="overflow-hidden">
-                                    <img class="img-fluid" src="images/Snacks.jpg" alt=""
-                                        style="width: 100%; height: 100%;">
+                                    <img class="img-fluid" src="images/Snacks.jpg" alt="" style="width: 100%; height: 100%;">
                                 </div>
-                                <h6>Snacks</h6>
-                                <small class="text-body">100 Products</small>
+                                    <h6>Snacks</h6>
+                                    <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -168,8 +164,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Beverages.jpg" alt="">
                                 </div>
-                                <h6>Beverages</h6>
-                                <small class="text-body">100 Products</small>
+                                    <h6>Beverages</h6>
+                                    <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -179,8 +175,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/FrozenFoods.jpg" alt="">
                                 </div>
-                                <h6>Frozen Foods</h6>
-                                <small class="text-body">100 Products</small>
+                                    <h6>Frozen Foods</h6>
+                                    <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -188,14 +184,14 @@
             </div>
             <!-- Categories End -->
 
-
+            
         </div>
 
 
     </div>
     <div>
-        <div class="container mt-5">
-            <div class="row">
+        <div class="container mt-5" >
+            <div class="row" id="card-row">
                 <div class="col-md-9">
                     <!-- Product cards go here -->
                     <div class="row mt-4" id="productCards">
@@ -259,28 +255,28 @@
                     var totalPrice = productPrice * quantity;
                     cartItem.find(".cart-item-price").text("$" + productPrice.toFixed(2));
                 } else {
-                    var cartItemHtml =
-                        '<li class="list-group-item" data-product-id="' + productId + '">' +
+                    var cartItemHtml = 
+                    '<li class="list-group-item" data-product-id="' + productId + '">' +
                         '<div class="d-flex flex-column">' +
-                        '<div class="d-flex justify-content-between align-items-center">' +
-                        '<span class="cart-item-name">' + productName + '</span>' +
-                        '<div class="d-flex align-items-center">' +
-                        '<button class="btn btn-sm add-from-cart"><i class="bi bi-plus"></i></button>' +
-                        '<span class="cart-item-quantity mx-2">1</span>' +
-                        '<button class="btn btn-sm remove-from-cart"><i class="bi bi-dash"></i></button>' +
+                            '<div class="d-flex justify-content-between align-items-center">' +
+                                '<span class="cart-item-name">' + productName + '</span>' +
+                                '<div class="d-flex align-items-center">' +
+                                    '<button class="btn btn-sm add-from-cart"><i class="bi bi-plus"></i></button>' +
+                                    '<span class="cart-item-quantity mx-2">1</span>' +
+                                    '<button class="btn btn-sm remove-from-cart"><i class="bi bi-dash"></i></button>' +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="d-flex justify-content-between align-items-center">' +
+                                '<span class="cart-item-price">$' + productPrice.toFixed(2) + '</span>' +
+                                '<div class="d-flex align-items-center">' +
+                                    '<button class="btn btn-success btn-sm checkout-from-cart me-2 text-nowrap">Checkout</button>' +
+                                    '<div class="d-flex align-items-center">' +
+                                        '<button class="btn btn-danger btn-sm remove-all-from-cart text-nowrap">Remove All</button>' +
+                                    '</div>' +
+                                '</div>' +
+                            '</div>' +
                         '</div>' +
-                        '</div>' +
-                        '<div class="d-flex justify-content-between align-items-center">' +
-                        '<span class="cart-item-price">$' + productPrice.toFixed(2) + '</span>' +
-                        '<div class="d-flex align-items-center">' +
-                        '<button class="btn btn-success btn-sm checkout-from-cart me-2 text-nowrap">Checkout</button>' +
-                        '<div class="d-flex align-items-center">' +
-                        '<button class="btn btn-danger btn-sm remove-all-from-cart text-nowrap">Remove All</button>' +
-                        '</div>' +
-                        '</div>' +
-                        '</div>' +
-                        '</div>' +
-                        '</li>';
+                    '</li>';
                     $(".cart-items").append(cartItemHtml);
                 }
 
@@ -355,19 +351,19 @@
                     });
                     $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
                     updateCartCount();
-
+                    
                 }
             });
 
-
+            
             const cartCountEl = document.querySelector('.cart-count');
 
             function updateCartCount() {
                 var cartCount = 0;
                 $(".cart-items .list-group-item").each(function () {
-                    var quantity = parseInt($(this).find(".cart-item-quantity").text());
-                    cartCount += quantity;
-                });
+                        var quantity = parseInt($(this).find(".cart-item-quantity").text());
+                        cartCount += quantity;
+                    });
                 cartCountEl.textContent = " (" + cartCount + ")";
                 if (cartCount > 0) {
                     cartCountEl.classList.add('active');
@@ -375,6 +371,27 @@
                     cartCountEl.classList.remove('active');
                 }
             }
+
+
+            const $searchInput = $('#search-input');
+            const $cards = $('.card');
+
+            $searchInput.on('keyup', function() {
+                const searchText = $(this).val().toLowerCase().trim();
+
+                $cards.each(function() {
+                const $title = $(this).find('.card-title');
+                const $body = $(this).find('.card-body');
+
+                if ($title.text().toLowerCase().includes(searchText) || $body.text().toLowerCase().includes(searchText)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+                });
+            });
+            
+                            
 
         });
 
