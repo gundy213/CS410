@@ -66,10 +66,11 @@
             </div>
             <div>
                 <div class="container mt-5">
+                    <h2 class="section-title position-relative text-uppercase "><span class="pr-3">Deals</span></h2>
                     <div class="row">
                         
                         <!-- Deals cards go here -->
-                        <div class="row mt-4" id="dealCards">
+                        <div class="row" id="dealCards">
                                 
                         </div>
                         
@@ -225,8 +226,8 @@
             // Add to Cart button click event handler
             $(".add-to-cart").on("click", function () {
                 var productId = $(this).data("product-id");
-                var productName = $(this).siblings(".card-title").text();
-                var productPrice = $(this).siblings(".card-text").last().text();
+                var productName = $(this).closest(".card").find(".card-title").text();
+                var productPrice = $(this).closest(".card").find(".card-text").last().text();
                 productPrice = parseFloat(productPrice.replace(/[^0-9.]/g, ""));
                 var cartItem = $(".cart-items").find("[data-product-id='" + productId + "']");
                 if (cartItem.length > 0) {
@@ -269,6 +270,7 @@
                 $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
                 updateCartCount();
             });
+
 
             // Add from Cart button click event handler
             $(".cart-items").on("click", ".add-from-cart", function () {
