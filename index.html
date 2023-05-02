@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Glizzy Gobblers</a>
+                <a class="navbar-brand" href="#">Glizzy Gourmands</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -47,7 +47,6 @@
                     </ul>
                     <form class="ms-auto">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
                       </form>
                 </div>
             </div>
@@ -381,9 +380,9 @@
 
                 $cards.each(function() {
                 const $title = $(this).find('.card-title');
-                const $body = $(this).find('.card-body');
+                
 
-                if ($title.text().toLowerCase().includes(searchText) || $body.text().toLowerCase().includes(searchText)) {
+                if ($title.text().toLowerCase().includes(searchText) ) {
                     $(this).show();
                 } else {
                     $(this).hide();
