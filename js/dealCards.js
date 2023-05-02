@@ -13,8 +13,8 @@ fetch("../json/deals.json")
                 `<div class="card-body">\n` +
                 `<h5 class="card-title">${data.deal[i].name}</h5>\n` +
                 `<p class="card-text">${data.deal[i].description}</p>\n` +
-                `<p class="card-text">Price: $${data.deal[i].price}</p>\n` +
                 `<p class="card-text">Old Price: <del>$${data.deal[i].oldprice}</del></p>\n` +
+                `<p class="card-text">Price: $${data.deal[i].price}</p>\n` +
                 `<button class="btn btn-primary add-to-cart" data-product-id="${data.deal[i].id}">Add to Cart</button>\n` +
                 `</div>\n</div>\n</div>\n`;
             //logs for testing, can remove if wanted later
