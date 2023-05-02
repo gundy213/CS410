@@ -1,67 +1,67 @@
 {
     "deal": [
         {
-            "id": 1,
+            "id": 900,
             "name": "product1",
             "description": "Description of Product 1",
             "department": "Dairy",
-            "price": 9.99,
-            "dealprice": 7.99,
+            "oldprice": 9.99,
+            "price": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
         },
         {
-            "id": 2,
+            "id": 901,
             "name": "product2",
             "description": "Description of Product 2",
             "department": "Dairy",
-            "price": 19.99,
-            "dealprice": 7.99,
+            "oldprice": 19.99,
+            "price": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
         },
         {
-            "id": 3,
+            "id": 903,
             "name": "product3",
             "description": "Description of Product 3",
             "department": "Dairy",
-            "price": 14.99,
-            "dealprice": 7.99,
+            "oldprice": 14.99,
+            "price": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
         },
         {
-            "id": 4,
+            "id": 904,
             "name": "product4",
             "description": "Description of Product 4",
             "department": "Dairy",
-            "price": 21.99,
-            "dealprice": 7.99,
+            "oldprice": 21.99,
+            "price": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
         },
         {
-            "id": 5,
+            "id": 905,
             "name": "product5",
             "description": "Description of Product 5",
             "department": "Dairy",
-            "price": 56.99,
-            "dealprice": 7.99,
+            "oldprice": 56.99,
+            "price": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
         },
         {
-            "id": 6,
+            "id": 906,
             "name": "product6",
             "description": "Description of Product 6",
             "department": "Dairy",
-            "price": 1.99,
-            "dealprice": 7.99,
+            "oldprice": 1.99,
+            "price": 7.99,
             "image": [
                 "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
             ]
