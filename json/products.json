@@ -6,7 +6,9 @@
             "description": "Crisp and juicy apples, perfect for snacking and baking.",
             "department": "Produce",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 2,
@@ -14,7 +16,9 @@
             "description": "Healthy and delicious bread, made with whole wheat flour.",
             "department": "Bakery",
             "price": 3.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 3,
@@ -22,7 +26,9 @@
             "description": "A dairy-free alternative to milk, made with almonds.",
             "department": "Beverages",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 4,
@@ -30,7 +36,9 @@
             "description": "Fresh and flavorful salmon, sustainably caught in the wild.",
             "department": "Seafood",
             "price": 11.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 5,
@@ -38,7 +46,9 @@
             "description": "Tender and nutritious baby spinach, perfect for salads and smoothies.",
             "department": "Produce",
             "price": 3.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 6,
@@ -46,7 +56,9 @@
             "description": "Thick and creamy yogurt, high in protein and low in fat.",
             "department": "Dairy",
             "price": 2.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 7,
@@ -54,7 +66,9 @@
             "description": "A gluten-free grain, rich in protein and fiber.",
             "department": "Pantry",
             "price": 6.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 8,
@@ -62,7 +76,9 @@
             "description": "Healthy and delicious beef, raised on a grass-based diet.",
             "department": "Meat",
             "price": 8.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 9,
@@ -70,7 +86,9 @@
             "description": "Sweet and juicy strawberries, packed with vitamins and antioxidants.",
             "department": "Produce",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 10,
@@ -78,7 +96,9 @@
             "description": "Rich and indulgent chocolate, made with high-quality cocoa.",
             "department": "Snacks",
             "price": 3.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 11,
@@ -86,7 +106,9 @@
             "description": "Sweet and satisfying bananas, loaded with potassium.",
             "department": "Produce",
             "price": 0.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 12,
@@ -94,7 +116,9 @@
             "description": "Traditional bread with a tangy flavor",
             "department": "Pantry",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 13,
@@ -102,7 +126,9 @@
             "description": "Small and flavorful blueberries, perfect for smoothies and baking.",
             "department": "Produce",
             "price": 5.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 14,
@@ -110,7 +136,9 @@
             "description": "Fresh and high-quality eggs, from free-range chickens.",
             "department": "Dairy",
             "price": 4.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 15,
@@ -118,7 +146,9 @@
             "description": "A refreshing and healthy tea, high in antioxidants.",
             "department": "Beverages",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 16,
@@ -126,7 +156,9 @@
             "description": "A blend of fresh and flavorful greens, perfect for salads.",
             "department": "Produce",
             "price": 3.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 17,
@@ -134,7 +166,9 @@
             "description": "Nutritious and delicious sweet potatoes, packed with vitamins and fiber.",
             "department": "Produce",
             "price": 2.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 18,
@@ -142,7 +176,9 @@
             "description": "Healthy and flavorful rice, rich in fiber and minerals.",
             "department": "Pantry",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 19,
@@ -150,7 +186,9 @@
             "description": "Sweet and crunchy carrots, packed with beta-carotene.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 20,
@@ -158,7 +196,9 @@
             "description": "Lean and versatile chicken, perfect for grilling and roasting.",
             "department": "Meat",
             "price": 6.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 21,
@@ -166,7 +206,9 @@
             "description": "Sweet and natural honey, perfect for sweetening tea and yogurt.",
             "department": "Pantry",
             "price": 5.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 22,
@@ -174,7 +216,9 @@
             "description": "Bright and flavorful bell pepper, rich in vitamin C.",
             "department": "Produce",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 23,
@@ -182,7 +226,9 @@
             "description": "Creamy and tangy cheese, high in protein and low in fat.",
             "department": "Dairy",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 24,
@@ -190,7 +236,9 @@
             "description": "Aromatic and flavorful garlic, perfect for adding to recipes.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 25,
@@ -198,7 +246,9 @@
             "description": "A dairy-free milk alternative, rich in vitamins and minerals.",
             "department": "Beverages",
             "price": 3.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 26,
@@ -206,7 +256,9 @@
             "description": "A superfood grain, high in protein and fiber.",
             "department": "Pantry",
             "price": 6.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 27,
@@ -214,7 +266,9 @@
             "description": "Mild and flaky white fish, perfect for grilling and baking.",
             "department": "Seafood",
             "price": 9.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 28,
@@ -222,7 +276,9 @@
             "description": "Juicy and crisp apples, packed with vitamins and fiber.",
             "department": "Produce",
             "price": 3.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 29,
@@ -230,7 +286,9 @@
             "description": "Healthy and delicious bread, made with whole wheat flour.",
             "department": "Bakery",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 30,
@@ -238,7 +296,9 @@
             "description": "Nutritious and flavorful spinach, perfect for salads and smoothies.",
             "department": "Produce",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 31,
@@ -246,7 +306,9 @@
             "description": "Sharp and creamy cheese, perfect for snacking and sandwiches.",
             "department": "Dairy",
             "price": 3.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 32,
@@ -254,7 +316,9 @@
             "description": "Sweet and satisfying bananas, packed with potassium.",
             "department": "Produce",
             "price": 0.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 33,
@@ -262,7 +326,9 @@
             "description": "Rich and flavorful salmon, high in omega-3 fatty acids.",
             "department": "Seafood",
             "price": 11.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 34,
@@ -270,7 +336,9 @@
             "description": "Natural and unrefined sugar, perfect for baking.",
             "department": "Pantry",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 35,
@@ -278,7 +346,9 @@
             "description": "Thick and creamy yogurt, high in protein and low in sugar.",
             "department": "Dairy",
             "price": 3.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 36,
@@ -286,7 +356,9 @@
             "description": "Nutritious and flavorful broccoli, perfect for roasting and steaming.",
             "department": "Produce",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 37,
@@ -294,7 +366,9 @@
             "description": "Healthy and delicious pasta, made with whole grain flour.",
             "department": "Pantry",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 38,
@@ -302,7 +376,9 @@
             "description": "Sweet and juicy blueberries, packed with antioxidants.",
             "department": "Produce",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 39,
@@ -310,7 +386,9 @@
             "description": "Lean and flavorful turkey, perfect for burgers and meatballs.",
             "department": "Meat",
             "price": 5.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 40,
@@ -318,7 +396,9 @@
             "description": "Healthy and delicious tortillas, made with whole wheat flour.",
             "department": "Bakery",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 41,
@@ -326,7 +406,9 @@
             "description": "Sweet and crunchy baby carrots, perfect for snacking and salads.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 42,
@@ -334,7 +416,9 @@
             "description": "Fresh and flavorful green beans, perfect for roasting and sautéing.",
             "department": "Produce",
             "price": 3.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 43,
@@ -342,7 +426,9 @@
             "description": "Rich and creamy milk, perfect for drinking and baking.",
             "department": "Dairy",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 44,
@@ -350,7 +436,9 @@
             "description": "Bold and flavorful coffee, perfect for starting your day.",
             "department": "Beverages",
             "price": 7.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 45,
@@ -358,7 +446,9 @@
             "description": "Sweet and juicy red grapes, perfect for snacking and salads.",
             "department": "Produce",
             "price": 3.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 46,
@@ -366,7 +456,9 @@
             "description": "Juicy and flavorful beef, perfect for burgers and meatloaf.",
             "department": "Meat",
             "price": 7.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 47,
@@ -374,7 +466,9 @@
             "description": "Crisp and refreshing lettuce, perfect for salads and wraps.",
             "department": "Produce",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 48,
@@ -382,7 +476,9 @@
             "description": "Sweet and flavorful cherry tomatoes, perfect for snacking and salads.",
             "department": "Produce",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 49,
@@ -390,7 +486,9 @@
             "description": "Fresh and delicious eggs, perfect for breakfast and baking.",
             "department": "Dairy",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 50,
@@ -398,7 +496,9 @@
             "description": "Flaky and flavorful salmon, perfect for grilling and baking.",
             "department": "Seafood",
             "price": 10.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 51,
@@ -406,7 +506,9 @@
             "description": "Crisp and tart apples, perfect for baking and snacking.",
             "department": "Produce",
             "price": 3.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 52,
@@ -414,7 +516,9 @@
             "description": "Creamy and delicious milk, perfect for drinking and cooking.",
             "department": "Dairy",
             "price": 5.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 53,
@@ -422,7 +526,9 @@
             "description": "Fresh and nutritious spinach, perfect for salads and smoothies.",
             "department": "Produce",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 54,
@@ -430,7 +536,9 @@
             "description": "Lean and flavorful beef, perfect for burgers and meatballs.",
             "department": "Meat",
             "price": 8.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 55,
@@ -438,7 +546,9 @@
             "description": "Sweet and aromatic honey, perfect for tea and baking.",
             "department": "Pantry",
             "price": 6.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 56,
@@ -446,7 +556,9 @@
             "description": "Flavorful and versatile onions, perfect for cooking and roasting.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 57,
@@ -454,7 +566,9 @@
             "description": "Buttery and nutritious avocados, perfect for salads and guacamole.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 58,
@@ -462,7 +576,9 @@
             "description": "Nutritious and satisfying rice, perfect for stir-fries and pilafs.",
             "department": "Pantry",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 59,
@@ -470,7 +586,9 @@
             "description": "Juicy and tender steak, perfect for grilling and roasting.",
             "department": "Meat",
             "price": 16.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 60,
@@ -478,7 +596,9 @@
             "description": "Aromatic and flavorful garlic, perfect for cooking and seasoning.",
             "department": "Produce",
             "price": 0.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 61,
@@ -486,7 +606,9 @@
             "description": "Sweet and juicy peppers, perfect for roasting and grilling.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 62,
@@ -494,7 +616,9 @@
             "description": "Rich and flavorful salmon, perfect for grilling and baking.",
             "department": "Seafood",
             "price": 12.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 63,
@@ -502,7 +626,9 @@
             "description": "Nutritious and versatile beans, perfect for soups and salads.",
             "department": "Canned Goods",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 64,
@@ -510,7 +636,9 @@
             "description": "Sweet and juicy tomatoes, perfect for snacking and salads.",
             "department": "Produce",
             "price": 3.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 65,
@@ -518,7 +646,9 @@
             "description": "Aromatic and flavorful herb, perfect for seasoning and garnishing.",
             "department": "Produce",
             "price": 0.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 66,
@@ -526,7 +656,9 @@
             "description": "Nutritious and hearty bread, perfect for sandwiches and toast.",
             "department": "Bakery",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 67,
@@ -534,7 +666,9 @@
             "description": "Sweet and juicy grapes, perfect for snacking and salads.",
             "department": "Produce",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 68,
@@ -542,7 +676,9 @@
             "description": "Juicy and flavorful roast, perfect for special occasions.",
             "department": "Meat",
             "price": 24.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 69,
@@ -550,7 +686,9 @@
             "description": "Sweet and tender carrots, perfect for snacking and roasting.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 70,
@@ -558,7 +696,9 @@
             "description": "Nutritious and versatile lentils, perfect for soups and stews.",
             "department": "Canned Goods",
             "price": 3.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 71,
@@ -566,7 +706,9 @@
             "description": "Nutritious and flavorful greens, perfect for salads and smoothies.",
             "department": "Produce",
             "price": 3.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 72,
@@ -574,7 +716,9 @@
             "description": "Sweet and succulent shrimp, perfect for grilling and sautéing.",
             "department": "Seafood",
             "price": 16.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 73,
@@ -582,7 +726,9 @@
             "description": "Nutritious and hearty rice, perfect for stir-fries and pilafs.",
             "department": "Grains",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 74,
@@ -590,7 +736,9 @@
             "description": "Mild and flavorful onions, perfect for garnishing and seasoning.",
             "department": "Produce",
             "price": 0.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 75,
@@ -598,7 +746,9 @@
             "description": "Creamy and flavorful avocados, perfect for guacamole and salads.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 76,
@@ -606,7 +756,9 @@
             "description": "Juicy and flavorful steaks, perfect for grilling and broiling.",
             "department": "Meat",
             "price": 19.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 77,
@@ -614,7 +766,9 @@
             "description": "Sweet and juicy berries, perfect for snacking and smoothies.",
             "department": "Produce",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 78,
@@ -622,7 +776,9 @@
             "description": "Rich and creamy milk, perfect for cooking and drinking.",
             "department": "Dairy",
             "price": 5.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 79,
@@ -630,7 +786,9 @@
             "description": "Cool and refreshing cucumbers, perfect for salads and sandwiches.",
             "department": "Produce",
             "price": 1.49,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 80,
@@ -638,7 +796,9 @@
             "description": "Nutritious and flavorful rice, perfect for sushi and salads.",
             "department": "Grains",
             "price": 5.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 81,
@@ -646,7 +806,9 @@
             "description": "Sweet and crisp apples, perfect for snacking and baking.",
             "department": "Produce",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 82,
@@ -654,7 +816,9 @@
             "description": "Rich and flavorful salmon, perfect for grilling and roasting.",
             "department": "Seafood",
             "price": 22.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 83,
@@ -662,7 +826,9 @@
             "description": "Sweet and crunchy peppers, perfect for salads and stir-fries.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 84,
@@ -670,7 +836,9 @@
             "description": "Juicy and flavorful tomatoes, perfect for salads and pasta dishes.",
             "department": "Produce",
             "price": 3.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 85,
@@ -678,7 +846,9 @@
             "description": "Juicy and flavorful ground beef, perfect for burgers and meatballs.",
             "department": "Meat",
             "price": 12.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 86,
@@ -686,7 +856,9 @@
             "description": "Nutritious and versatile grain, perfect for salads and side dishes.",
             "department": "Grains",
             "price": 6.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 87,
@@ -694,7 +866,9 @@
             "description": "Sweet and crunchy carrots, perfect for roasting and snacking.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 88,
@@ -702,7 +876,9 @@
             "description": "Juicy and flavorful chicken breast, perfect for grilling and baking.",
             "department": "Meat",
             "price": 9.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 89,
@@ -710,7 +886,9 @@
             "description": "Juicy and flavorful oranges, perfect for juicing and snacking.",
             "department": "Produce",
             "price": 3.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 90,
@@ -718,7 +896,9 @@
             "description": "Nutritious and delicious eggs, perfect for breakfast and baking.",
             "department": "Dairy",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 91,
@@ -726,7 +906,9 @@
             "description": "Tender and flavorful spinach, perfect for salads and smoothies.",
             "department": "Produce",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 92,
@@ -734,7 +916,9 @@
             "description": "Mild and flaky cod, perfect for fish and chips and fish tacos.",
             "department": "Seafood",
             "price": 18.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 93,
@@ -742,7 +926,9 @@
             "description": "Juicy and sweet blueberries, perfect for snacking and baking.",
             "department": "Produce",
             "price": 4.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 94,
@@ -750,7 +936,9 @@
             "description": "Nutritious and flavorful grain, perfect for salads and side dishes.",
             "department": "Grains",
             "price": 7.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 95,
@@ -758,7 +946,9 @@
             "description": "Juicy and tender ribeye steak, perfect for grilling and roasting.",
             "department": "Meat",
             "price": 24.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 96,
@@ -766,7 +956,9 @@
             "description": "Nutritious and flavorful sweet potatoes, perfect for roasting and mashing.",
             "department": "Produce",
             "price": 2.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 97,
@@ -774,7 +966,9 @@
             "description": "Juicy and flavorful pork loin roast, perfect for slow roasting and braising.",
             "department": "Meat",
             "price": 14.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 98,
@@ -782,7 +976,9 @@
             "description": "Sweet and crunchy onions, perfect for salads and sandwiches.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 99,
@@ -790,7 +986,9 @@
             "description": "Sweet and flavorful syrup, perfect for pancakes and waffles.",
             "department": "Pantry",
             "price": 9.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         },
         {
             "id": 100,
@@ -798,7 +996,9 @@
             "description": "Creamy and delicious avocados, perfect for guacamole and sandwiches.",
             "department": "Produce",
             "price": 1.99,
-            "image": "../images/placeholder.jpg"
+            "image": [
+                "../images/placeholder.jpg"
+            ]
         }
     ]
 }
