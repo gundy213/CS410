@@ -1,7 +1,7 @@
 {
     "deal": [
         {
-            "id": 1,
+            "id": 900,
             "name": "product1",
             "description": "Description of Product 1",
             "department": "Dairy",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 901,
             "name": "product2",
             "description": "Description of Product 2",
             "department": "Dairy",
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 903,
             "name": "product3",
             "description": "Description of Product 3",
             "department": "Dairy",
@@ -34,7 +34,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 904,
             "name": "product4",
             "description": "Description of Product 4",
             "department": "Dairy",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 905,
             "name": "product5",
             "description": "Description of Product 5",
             "department": "Dairy",
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 906,
             "name": "product6",
             "description": "Description of Product 6",
             "department": "Dairy",
