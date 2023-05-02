@@ -1,63 +1,1003 @@
 {
-    "product": [
+    "products": [
         {
             "id": 1,
-            "name": "product1",
-            "description": "Description of Product 1",
-            "category": "Dairy",
-            "price": 9.99,
+            "name": "Organic Apples",
+            "description": "Crisp and juicy apples, perfect for snacking and baking.",
+            "department": "Produce",
+            "price": 2.99,
             "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
+                "../images/placeholder.jpg"
             ]
         },
         {
             "id": 2,
-            "name": "product2",
-            "description": "Description of Product 2",
-            "category": "Dairy",
-            "price": 19.99,
+            "name": "Whole Wheat Bread",
+            "description": "Healthy and delicious bread, made with whole wheat flour.",
+            "department": "Bakery",
+            "price": 3.49,
             "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
+                "../images/placeholder.jpg"
             ]
         },
         {
             "id": 3,
-            "name": "product3",
-            "description": "Description of Product 3",
-            "category": "Dairy",
-            "price": 14.99,
+            "name": "Almond Milk",
+            "description": "A dairy-free alternative to milk, made with almonds.",
+            "department": "Beverages",
+            "price": 4.99,
             "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
+                "../images/placeholder.jpg"
             ]
         },
         {
             "id": 4,
-            "name": "product4",
-            "description": "Description of Product 4",
-            "category": "Dairy",
-            "price": 21.99,
+            "name": "Wild Caught Salmon",
+            "description": "Fresh and flavorful salmon, sustainably caught in the wild.",
+            "department": "Seafood",
+            "price": 11.99,
             "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
+                "../images/placeholder.jpg"
             ]
         },
         {
             "id": 5,
-            "name": "product5",
-            "description": "Description of Product 5",
-            "category": "Dairy",
-            "price": 56.99,
+            "name": "Organic Baby Spinach",
+            "description": "Tender and nutritious baby spinach, perfect for salads and smoothies.",
+            "department": "Produce",
+            "price": 3.99,
             "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
+                "../images/placeholder.jpg"
             ]
         },
         {
             "id": 6,
-            "name": "product6",
-            "description": "Description of Product 6",
-            "category": "Dairy",
+            "name": "Greek Yogurt",
+            "description": "Thick and creamy yogurt, high in protein and low in fat.",
+            "department": "Dairy",
+            "price": 2.49,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Organic Quinoa",
+            "description": "A gluten-free grain, rich in protein and fiber.",
+            "department": "Pantry",
+            "price": 6.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Grass Fed Beef",
+            "description": "Healthy and delicious beef, raised on a grass-based diet.",
+            "department": "Meat",
+            "price": 8.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Organic Strawberries",
+            "description": "Sweet and juicy strawberries, packed with vitamins and antioxidants.",
+            "department": "Produce",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Dark Chocolate",
+            "description": "Rich and indulgent chocolate, made with high-quality cocoa.",
+            "department": "Snacks",
+            "price": 3.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Organic Bananas",
+            "description": "Sweet and satisfying bananas, loaded with potassium.",
+            "department": "Produce",
+            "price": 0.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Sourdough Bread",
+            "description": "Traditional bread with a tangy flavor",
+            "department": "Pantry",
             "price": 1.99,
             "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Organic Blueberries",
+            "description": "Small and flavorful blueberries, perfect for smoothies and baking.",
+            "department": "Produce",
+            "price": 5.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Free Range Eggs",
+            "description": "Fresh and high-quality eggs, from free-range chickens.",
+            "department": "Dairy",
+            "price": 4.49,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Green Tea",
+            "description": "A refreshing and healthy tea, high in antioxidants.",
+            "department": "Beverages",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Salad Mix",
+            "description": "A blend of fresh and flavorful greens, perfect for salads.",
+            "department": "Produce",
+            "price": 3.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Organic Sweet Potatoes",
+            "description": "Nutritious and delicious sweet potatoes, packed with vitamins and fiber.",
+            "department": "Produce",
+            "price": 2.49,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Organic Brown Rice",
+            "description": "Healthy and flavorful rice, rich in fiber and minerals.",
+            "department": "Pantry",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Organic Carrots",
+            "description": "Sweet and crunchy carrots, packed with beta-carotene.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Boneless Chicken Breast",
+            "description": "Lean and versatile chicken, perfect for grilling and roasting.",
+            "department": "Meat",
+            "price": 6.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Honey",
+            "description": "Sweet and natural honey, perfect for sweetening tea and yogurt.",
+            "department": "Pantry",
+            "price": 5.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Organic Red Bell Pepper",
+            "description": "Bright and flavorful bell pepper, rich in vitamin C.",
+            "department": "Produce",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Cottage Cheese",
+            "description": "Creamy and tangy cheese, high in protein and low in fat.",
+            "department": "Dairy",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Organic Garlic",
+            "description": "Aromatic and flavorful garlic, perfect for adding to recipes.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Almond Milk",
+            "description": "A dairy-free milk alternative, rich in vitamins and minerals.",
+            "department": "Beverages",
+            "price": 3.49,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Quinoa",
+            "description": "A superfood grain, high in protein and fiber.",
+            "department": "Pantry",
+            "price": 6.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Fresh Tilapia",
+            "description": "Mild and flaky white fish, perfect for grilling and baking.",
+            "department": "Seafood",
+            "price": 9.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Organic Apples",
+            "description": "Juicy and crisp apples, packed with vitamins and fiber.",
+            "department": "Produce",
+            "price": 3.49,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Whole Wheat Bread",
+            "description": "Healthy and delicious bread, made with whole wheat flour.",
+            "department": "Bakery",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Organic Spinach",
+            "description": "Nutritious and flavorful spinach, perfect for salads and smoothies.",
+            "department": "Produce",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Cheddar Cheese",
+            "description": "Sharp and creamy cheese, perfect for snacking and sandwiches.",
+            "department": "Dairy",
+            "price": 3.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Organic Bananas",
+            "description": "Sweet and satisfying bananas, packed with potassium.",
+            "department": "Produce",
+            "price": 0.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Wild Caught Salmon",
+            "description": "Rich and flavorful salmon, high in omega-3 fatty acids.",
+            "department": "Seafood",
+            "price": 11.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Organic Brown Sugar",
+            "description": "Natural and unrefined sugar, perfect for baking.",
+            "department": "Pantry",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Greek Yogurt",
+            "description": "Thick and creamy yogurt, high in protein and low in sugar.",
+            "department": "Dairy",
+            "price": 3.49,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Organic Broccoli",
+            "description": "Nutritious and flavorful broccoli, perfect for roasting and steaming.",
+            "department": "Produce",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 37,
+            "name": "Whole Grain Pasta",
+            "description": "Healthy and delicious pasta, made with whole grain flour.",
+            "department": "Pantry",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 38,
+            "name": "Organic Blueberries",
+            "description": "Sweet and juicy blueberries, packed with antioxidants.",
+            "department": "Produce",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Ground Turkey",
+            "description": "Lean and flavorful turkey, perfect for burgers and meatballs.",
+            "department": "Meat",
+            "price": 5.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Whole Wheat Tortillas",
+            "description": "Healthy and delicious tortillas, made with whole wheat flour.",
+            "department": "Bakery",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 41,
+            "name": "Organic Baby Carrots",
+            "description": "Sweet and crunchy baby carrots, perfect for snacking and salads.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 42,
+            "name": "Organic Green Beans",
+            "description": "Fresh and flavorful green beans, perfect for roasting and sautéing.",
+            "department": "Produce",
+            "price": 3.49,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 43,
+            "name": "Whole Milk",
+            "description": "Rich and creamy milk, perfect for drinking and baking.",
+            "department": "Dairy",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Fresh Ground Coffee",
+            "description": "Bold and flavorful coffee, perfect for starting your day.",
+            "department": "Beverages",
+            "price": 7.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Organic Red Grapes",
+            "description": "Sweet and juicy red grapes, perfect for snacking and salads.",
+            "department": "Produce",
+            "price": 3.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 46,
+            "name": "Fresh Ground Beef",
+            "description": "Juicy and flavorful beef, perfect for burgers and meatloaf.",
+            "department": "Meat",
+            "price": 7.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 47,
+            "name": "Organic Romaine Lettuce",
+            "description": "Crisp and refreshing lettuce, perfect for salads and wraps.",
+            "department": "Produce",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 48,
+            "name": "Organic Cherry Tomatoes",
+            "description": "Sweet and flavorful cherry tomatoes, perfect for snacking and salads.",
+            "department": "Produce",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 49,
+            "name": "Cage-Free Brown Eggs",
+            "description": "Fresh and delicious eggs, perfect for breakfast and baking.",
+            "department": "Dairy",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 50,
+            "name": "Wild-Caught Salmon",
+            "description": "Flaky and flavorful salmon, perfect for grilling and baking.",
+            "department": "Seafood",
+            "price": 10.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 51,
+            "name": "Organic Granny Smith Apples",
+            "description": "Crisp and tart apples, perfect for baking and snacking.",
+            "department": "Produce",
+            "price": 3.49,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 52,
+            "name": "Organic Whole Milk",
+            "description": "Creamy and delicious milk, perfect for drinking and cooking.",
+            "department": "Dairy",
+            "price": 5.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 53,
+            "name": "Organic Baby Spinach",
+            "description": "Fresh and nutritious spinach, perfect for salads and smoothies.",
+            "department": "Produce",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 54,
+            "name": "Organic Grass-Fed Ground Beef",
+            "description": "Lean and flavorful beef, perfect for burgers and meatballs.",
+            "department": "Meat",
+            "price": 8.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 55,
+            "name": "Wildflower Honey",
+            "description": "Sweet and aromatic honey, perfect for tea and baking.",
+            "department": "Pantry",
+            "price": 6.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 56,
+            "name": "Organic Yellow Onions",
+            "description": "Flavorful and versatile onions, perfect for cooking and roasting.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 57,
+            "name": "Organic Avocados",
+            "description": "Buttery and nutritious avocados, perfect for salads and guacamole.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 58,
+            "name": "Organic Brown Rice",
+            "description": "Nutritious and satisfying rice, perfect for stir-fries and pilafs.",
+            "department": "Pantry",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 59,
+            "name": "Grass-Fed Ribeye Steak",
+            "description": "Juicy and tender steak, perfect for grilling and roasting.",
+            "department": "Meat",
+            "price": 16.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 60,
+            "name": "Organic Garlic",
+            "description": "Aromatic and flavorful garlic, perfect for cooking and seasoning.",
+            "department": "Produce",
+            "price": 0.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 61,
+            "name": "Organic Red Bell Peppers",
+            "description": "Sweet and juicy peppers, perfect for roasting and grilling.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 62,
+            "name": "Wild-Caught Alaskan Salmon",
+            "description": "Rich and flavorful salmon, perfect for grilling and baking.",
+            "department": "Seafood",
+            "price": 12.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 63,
+            "name": "Organic Black Beans",
+            "description": "Nutritious and versatile beans, perfect for soups and salads.",
+            "department": "Canned Goods",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 64,
+            "name": "Organic Grape Tomatoes",
+            "description": "Sweet and juicy tomatoes, perfect for snacking and salads.",
+            "department": "Produce",
+            "price": 3.49,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 65,
+            "name": "Organic Cilantro",
+            "description": "Aromatic and flavorful herb, perfect for seasoning and garnishing.",
+            "department": "Produce",
+            "price": 0.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 66,
+            "name": "Organic Whole Wheat Bread",
+            "description": "Nutritious and hearty bread, perfect for sandwiches and toast.",
+            "department": "Bakery",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 67,
+            "name": "Organic Red Seedless Grapes",
+            "description": "Sweet and juicy grapes, perfect for snacking and salads.",
+            "department": "Produce",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 68,
+            "name": "Organic Grass-Fed Beef Rib Roast",
+            "description": "Juicy and flavorful roast, perfect for special occasions.",
+            "department": "Meat",
+            "price": 24.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 69,
+            "name": "Organic Baby Carrots",
+            "description": "Sweet and tender carrots, perfect for snacking and roasting.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 70,
+            "name": "Organic Red Lentils",
+            "description": "Nutritious and versatile lentils, perfect for soups and stews.",
+            "department": "Canned Goods",
+            "price": 3.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 71,
+            "name": "Organic Baby Spinach",
+            "description": "Nutritious and flavorful greens, perfect for salads and smoothies.",
+            "department": "Produce",
+            "price": 3.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 72,
+            "name": "Wild-Caught Gulf Shrimp",
+            "description": "Sweet and succulent shrimp, perfect for grilling and sautéing.",
+            "department": "Seafood",
+            "price": 16.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 73,
+            "name": "Organic Brown Rice",
+            "description": "Nutritious and hearty rice, perfect for stir-fries and pilafs.",
+            "department": "Grains",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 74,
+            "name": "Organic Green Onions",
+            "description": "Mild and flavorful onions, perfect for garnishing and seasoning.",
+            "department": "Produce",
+            "price": 0.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 75,
+            "name": "Organic Hass Avocados",
+            "description": "Creamy and flavorful avocados, perfect for guacamole and salads.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 76,
+            "name": "Organic Grass-Fed Beef Sirloin Steaks",
+            "description": "Juicy and flavorful steaks, perfect for grilling and broiling.",
+            "department": "Meat",
+            "price": 19.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 77,
+            "name": "Organic Blueberries",
+            "description": "Sweet and juicy berries, perfect for snacking and smoothies.",
+            "department": "Produce",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 78,
+            "name": "Organic Whole Milk",
+            "description": "Rich and creamy milk, perfect for cooking and drinking.",
+            "department": "Dairy",
+            "price": 5.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 79,
+            "name": "Organic Cucumber",
+            "description": "Cool and refreshing cucumbers, perfect for salads and sandwiches.",
+            "department": "Produce",
+            "price": 1.49,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 80,
+            "name": "Organic Black Rice",
+            "description": "Nutritious and flavorful rice, perfect for sushi and salads.",
+            "department": "Grains",
+            "price": 5.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 81,
+            "name": "Organic Gala Apples",
+            "description": "Sweet and crisp apples, perfect for snacking and baking.",
+            "department": "Produce",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 82,
+            "name": "Wild-Caught Sockeye Salmon",
+            "description": "Rich and flavorful salmon, perfect for grilling and roasting.",
+            "department": "Seafood",
+            "price": 22.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 83,
+            "name": "Organic Red Bell Pepper",
+            "description": "Sweet and crunchy peppers, perfect for salads and stir-fries.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 84,
+            "name": "Organic Cherry Tomatoes",
+            "description": "Juicy and flavorful tomatoes, perfect for salads and pasta dishes.",
+            "department": "Produce",
+            "price": 3.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 85,
+            "name": "Organic Grass-Fed Beef Ground Chuck",
+            "description": "Juicy and flavorful ground beef, perfect for burgers and meatballs.",
+            "department": "Meat",
+            "price": 12.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 86,
+            "name": "Organic Quinoa",
+            "description": "Nutritious and versatile grain, perfect for salads and side dishes.",
+            "department": "Grains",
+            "price": 6.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 87,
+            "name": "Organic Carrots",
+            "description": "Sweet and crunchy carrots, perfect for roasting and snacking.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 88,
+            "name": "Organic Free-Range Chicken Breast",
+            "description": "Juicy and flavorful chicken breast, perfect for grilling and baking.",
+            "department": "Meat",
+            "price": 9.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 89,
+            "name": "Organic Valencia Oranges",
+            "description": "Juicy and flavorful oranges, perfect for juicing and snacking.",
+            "department": "Produce",
+            "price": 3.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 90,
+            "name": "Organic Brown Eggs",
+            "description": "Nutritious and delicious eggs, perfect for breakfast and baking.",
+            "department": "Dairy",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 91,
+            "name": "Organic Baby Spinach",
+            "description": "Tender and flavorful spinach, perfect for salads and smoothies.",
+            "department": "Produce",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 92,
+            "name": "Wild-Caught Pacific Cod",
+            "description": "Mild and flaky cod, perfect for fish and chips and fish tacos.",
+            "department": "Seafood",
+            "price": 18.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 93,
+            "name": "Organic Blueberries",
+            "description": "Juicy and sweet blueberries, perfect for snacking and baking.",
+            "department": "Produce",
+            "price": 4.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 94,
+            "name": "Organic Red Quinoa",
+            "description": "Nutritious and flavorful grain, perfect for salads and side dishes.",
+            "department": "Grains",
+            "price": 7.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 95,
+            "name": "Organic Grass-Fed Beef Ribeye Steak",
+            "description": "Juicy and tender ribeye steak, perfect for grilling and roasting.",
+            "department": "Meat",
+            "price": 24.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 96,
+            "name": "Organic Sweet Potatoes",
+            "description": "Nutritious and flavorful sweet potatoes, perfect for roasting and mashing.",
+            "department": "Produce",
+            "price": 2.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 97,
+            "name": "Organic Boneless Pork Loin Roast",
+            "description": "Juicy and flavorful pork loin roast, perfect for slow roasting and braising.",
+            "department": "Meat",
+            "price": 14.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 98,
+            "name": "Organic Red Onions",
+            "description": "Sweet and crunchy onions, perfect for salads and sandwiches.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 99,
+            "name": "Organic Maple Syrup",
+            "description": "Sweet and flavorful syrup, perfect for pancakes and waffles.",
+            "department": "Pantry",
+            "price": 9.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 100,
+            "name": "Organic Hass Avocados",
+            "description": "Creamy and delicious avocados, perfect for guacamole and sandwiches.",
+            "department": "Produce",
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
             ]
         }
     ]
