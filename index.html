@@ -195,19 +195,17 @@
             
         </div>
 
-
-    </div>
-    <div id="products">
-        <div class="container mt-5" >
-            <h2 class="section-title position-relative text-uppercase "><span class="pr-3">Products</span></h2>
-            <div class="row">
-                <!-- Product cards go here -->
-                <div class="row mt-4" id="productCards"> 
+        <div id="products">
+            <div class="container mt-5" >
+                <h2 class="section-title position-relative text-uppercase" ><span class="pr-3" id="productsDiv">Products</span></h2>
+                <div class="row">
+                    <!-- Product cards go here -->
+                    <div class="row mt-4" id="productCards"> 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 
     <!-- Add Bootstrap 5 JS link -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -429,6 +427,13 @@
         } else {
             cardCategories[i].parentNode.parentNode.parentNode.style.display = 'none';
         }
+        }
+        
+        document.getElementById("productsDiv").innerHTML;
+        if (department === "all") {
+            document.getElementById("productsDiv").innerHTML = "Products";
+        } else {
+            document.getElementById("productsDiv").innerHTML = department;
         }
     }
 
