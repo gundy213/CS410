@@ -388,6 +388,10 @@
                 var myWindow = window.open("", "Invoice", "width=600,height=600");
                 myWindow.document.write(invoiceHtml);
 
+                //add a print button to the invoice window
+                myWindow.document.write('<div class="text-center"><button class="btn btn-primary" onclick="window.print()">Print</button></div>');
+                
+
             });
 
             
