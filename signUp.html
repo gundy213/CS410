@@ -8,7 +8,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
-    <script type="text/javascript" src="js/productCard.js"></script>
 </head>
 
 <header>
@@ -42,31 +41,61 @@
 
     <form action="action_page.html" class="container" method="post">
         <div class="imgcontainer">
-            <img src="https://www.pngplay.com/wp-content/uploads/1/Login-PNG-Free-Commercial-Use-Image.png" alt="Logo"
+            <img src="https://www.freeiconspng.com/thumbs/sign-up-button-png/sign-up-button-png-18.png" alt="Logo"
                 class="logo">
         </div>
 
         <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="fname"><b>*First name:</b></label>
+            <input type="text" placeholder="Enter first name" name="fname" required>
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <label for="lname"><b>*Last name:</b></label>
+            <input type="text" placeholder="Enter last name" name="lname" required>
 
-            <button type="submit" href="./index.html">Login</button>
+            <label for="lname"><b>*Username:</b></label>
+            <input type="text" placeholder="Enter username" name="lname" required>
+
+            <label for="email"><b>*Email:</b></label>
+            <input type="text" placeholder="Enter email" name="email" required>
+
+            <label for="email"><b>Phone Number:</b></label>
+            <input type="text" placeholder="Enter phone number" name="pnumber" required>
+
+            <label for="psw"><b>*Password:</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+
+            <label for="psw-repeat"><b>*Repeat Password:</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="confirm_password" required>
+
+            <button type="submit" class="pure-button pure-button-primary"
+                onclick="window.location.href = 'index.html';">Sign Up</button>
             <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
         </div>
 
         <div class="container">
-            <span class=""><a href="./signUp.html">New? Sign up here! </a></span>
-            <br>
-            <button type="button" class="cancelbtn" onclick="window.location.href = 'index.html';">Cancel</button>
+            <button type="button" class="cancelbtn" onclick="window.location.href = 'logIn.html';">Cancel</button>
             <span class="psw"><a href="./index.html">Forgot password?</a></span>
         </div>
     </form>
 
 </body>
+
+<script>
+    var password = document.getElementById("password")
+        , confirm_password = document.getElementById("confirm_password");
+
+    function validatePassword() {
+        if (password.value != confirm_password.value) {
+            confirm_password.setCustomValidity("Passwords Don't Match");
+        } else {
+            confirm_password.setCustomValidity('');
+        }
+    }
+
+    password.onchange = validatePassword;
+    confirm_password.onkeyup = validatePassword;
+</script>
 
 </html>
