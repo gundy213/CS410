@@ -14,7 +14,7 @@
             "id": 2,
             "name": "Whole Wheat Bread",
             "description": "Healthy and delicious bread, made with whole wheat flour.",
-            "department": "Bakery",
+            "department": "Bread and Baked Goods",
             "price": 3.49,
             "image": [
                 "../images/placeholder.jpg"
@@ -64,7 +64,7 @@
             "id": 7,
             "name": "Organic Quinoa",
             "description": "A gluten-free grain, rich in protein and fiber.",
-            "department": "Pantry",
+            "department": "Cereal and Grains",
             "price": 6.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -74,7 +74,7 @@
             "id": 8,
             "name": "Grass Fed Beef",
             "description": "Healthy and delicious beef, raised on a grass-based diet.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 8.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -114,7 +114,7 @@
             "id": 12,
             "name": "Sourdough Bread",
             "description": "Traditional bread with a tangy flavor",
-            "department": "Pantry",
+            "department": "Bread and Baked Goods",
             "price": 1.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -174,7 +174,7 @@
             "id": 18,
             "name": "Organic Brown Rice",
             "description": "Healthy and flavorful rice, rich in fiber and minerals.",
-            "department": "Pantry",
+            "department": "Cereal and Grains",
             "price": 4.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -194,7 +194,7 @@
             "id": 20,
             "name": "Boneless Chicken Breast",
             "description": "Lean and versatile chicken, perfect for grilling and roasting.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 6.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -204,7 +204,7 @@
             "id": 21,
             "name": "Honey",
             "description": "Sweet and natural honey, perfect for sweetening tea and yogurt.",
-            "department": "Pantry",
+            "department": "Canned and Packaged Goods",
             "price": 5.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -254,7 +254,7 @@
             "id": 26,
             "name": "Quinoa",
             "description": "A superfood grain, high in protein and fiber.",
-            "department": "Pantry",
+            "department": "Cereal and Grains",
             "price": 6.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -284,7 +284,7 @@
             "id": 29,
             "name": "Whole Wheat Bread",
             "description": "Healthy and delicious bread, made with whole wheat flour.",
-            "department": "Bakery",
+            "department": "Bread and Baked Goods",
             "price": 2.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -334,7 +334,7 @@
             "id": 34,
             "name": "Organic Brown Sugar",
             "description": "Natural and unrefined sugar, perfect for baking.",
-            "department": "Pantry",
+            "department": "Cereal and Grains",
             "price": 4.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -364,7 +364,7 @@
             "id": 37,
             "name": "Whole Grain Pasta",
             "description": "Healthy and delicious pasta, made with whole grain flour.",
-            "department": "Pantry",
+            "department": "Cereal and Grains",
             "price": 2.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -384,7 +384,7 @@
             "id": 39,
             "name": "Ground Turkey",
             "description": "Lean and flavorful turkey, perfect for burgers and meatballs.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 5.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -394,7 +394,7 @@
             "id": 40,
             "name": "Whole Wheat Tortillas",
             "description": "Healthy and delicious tortillas, made with whole wheat flour.",
-            "department": "Bakery",
+            "department": "Bread and Baked Goods",
             "price": 2.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -454,7 +454,7 @@
             "id": 46,
             "name": "Fresh Ground Beef",
             "description": "Juicy and flavorful beef, perfect for burgers and meatloaf.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 7.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -534,7 +534,7 @@
             "id": 54,
             "name": "Organic Grass-Fed Ground Beef",
             "description": "Lean and flavorful beef, perfect for burgers and meatballs.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 8.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -544,7 +544,7 @@
             "id": 55,
             "name": "Wildflower Honey",
             "description": "Sweet and aromatic honey, perfect for tea and baking.",
-            "department": "Pantry",
+            "department": "Canned and Packaged Goods",
             "price": 6.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -574,7 +574,7 @@
             "id": 58,
             "name": "Organic Brown Rice",
             "description": "Nutritious and satisfying rice, perfect for stir-fries and pilafs.",
-            "department": "Pantry",
+            "department": "Cereal and Grains",
             "price": 4.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -584,7 +584,7 @@
             "id": 59,
             "name": "Grass-Fed Ribeye Steak",
             "description": "Juicy and tender steak, perfect for grilling and roasting.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 16.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -624,7 +624,7 @@
             "id": 63,
             "name": "Organic Black Beans",
             "description": "Nutritious and versatile beans, perfect for soups and salads.",
-            "department": "Canned Goods",
+            "department": "Canned and Packaged Goods",
             "price": 2.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -654,7 +654,7 @@
             "id": 66,
             "name": "Organic Whole Wheat Bread",
             "description": "Nutritious and hearty bread, perfect for sandwiches and toast.",
-            "department": "Bakery",
+            "department": "Bread and Baked Goods",
             "price": 4.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -674,7 +674,7 @@
             "id": 68,
             "name": "Organic Grass-Fed Beef Rib Roast",
             "description": "Juicy and flavorful roast, perfect for special occasions.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 24.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -694,7 +694,7 @@
             "id": 70,
             "name": "Organic Red Lentils",
             "description": "Nutritious and versatile lentils, perfect for soups and stews.",
-            "department": "Canned Goods",
+            "department": "Canned and Packaged Goods",
             "price": 3.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -724,7 +724,7 @@
             "id": 73,
             "name": "Organic Brown Rice",
             "description": "Nutritious and hearty rice, perfect for stir-fries and pilafs.",
-            "department": "Grains",
+            "department": "Cereal and Grains",
             "price": 4.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -754,7 +754,7 @@
             "id": 76,
             "name": "Organic Grass-Fed Beef Sirloin Steaks",
             "description": "Juicy and flavorful steaks, perfect for grilling and broiling.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 19.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -794,7 +794,7 @@
             "id": 80,
             "name": "Organic Black Rice",
             "description": "Nutritious and flavorful rice, perfect for sushi and salads.",
-            "department": "Grains",
+            "department": "Cereal and Grains",
             "price": 5.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -844,7 +844,7 @@
             "id": 85,
             "name": "Organic Grass-Fed Beef Ground Chuck",
             "description": "Juicy and flavorful ground beef, perfect for burgers and meatballs.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 12.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -854,7 +854,7 @@
             "id": 86,
             "name": "Organic Quinoa",
             "description": "Nutritious and versatile grain, perfect for salads and side dishes.",
-            "department": "Grains",
+            "department": "Cereal and Grains",
             "price": 6.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -874,7 +874,7 @@
             "id": 88,
             "name": "Organic Free-Range Chicken Breast",
             "description": "Juicy and flavorful chicken breast, perfect for grilling and baking.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 9.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -934,7 +934,7 @@
             "id": 94,
             "name": "Organic Red Quinoa",
             "description": "Nutritious and flavorful grain, perfect for salads and side dishes.",
-            "department": "Grains",
+            "department": "Cereal and Grains",
             "price": 7.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -944,7 +944,7 @@
             "id": 95,
             "name": "Organic Grass-Fed Beef Ribeye Steak",
             "description": "Juicy and tender ribeye steak, perfect for grilling and roasting.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 24.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -964,7 +964,7 @@
             "id": 97,
             "name": "Organic Boneless Pork Loin Roast",
             "description": "Juicy and flavorful pork loin roast, perfect for slow roasting and braising.",
-            "department": "Meat",
+            "department": "Meat and Poultry",
             "price": 14.99,
             "image": [
                 "../images/placeholder.jpg"
@@ -984,7 +984,7 @@
             "id": 99,
             "name": "Organic Maple Syrup",
             "description": "Sweet and flavorful syrup, perfect for pancakes and waffles.",
-            "department": "Pantry",
+            "department": "Canned and Packaged Goods",
             "price": 9.99,
             "image": [
                 "../images/placeholder.jpg"

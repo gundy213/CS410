@@ -10,6 +10,7 @@
     <link href="styles.css" rel="stylesheet">
     <script type="text/javascript" src="js/dealCards.js"></script>
     <script type="text/javascript" src="js/productCard.js"></script>
+    
 </head>
 
 <body style="background-color: #9e9e9e36;">
@@ -24,10 +25,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#products" onclick="filterCards(*)">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Deals</a>
+                            <a class="nav-link" href="#deals">Deals</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./login.html">Profile</a>
@@ -64,7 +65,7 @@
                         of Online Food Shopping!</h2>
                 </div>
             </div>
-            <div>
+            <div id="deals">
                 <div class="container mt-5">
                     <h2 class="section-title position-relative text-uppercase "><span class="pr-3">Deals</span></h2>
                     <div class="row">
@@ -78,8 +79,8 @@
                 <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="pr-3">Categories</span></h2>
                 <div class="row px-xl-5 pb-3">                
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                        <a class="text-decoration-none" href="">
-                            <div class="cat-item d-flex flex-column align-items-center mb-4">
+                        <a class="text-decoration-none" href="#products">
+                            <div class="cat-item d-flex flex-column align-items-center mb-4" onclick="filterCards('Dairy')">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Dairy.jpg" alt="">
                                 </div>
@@ -89,19 +90,19 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                        <a class="text-decoration-none" href="">
-                            <div class="cat-item d-flex flex-column align-items-center mb-4">
+                        <a class="text-decoration-none" href="#products">
+                            <div class="cat-item d-flex flex-column align-items-center mb-4" onclick="filterCards('Meat and Poultry')">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/MeatAndPoultry.jpg" alt="">
                                 </div>
-                                <h6>Meat and Poutry</h6>
+                                <h6>Meat and Poultry</h6>
                                 <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                        <a class="text-decoration-none" href="">
-                            <div class="cat-item d-flex flex-column align-items-center mb-4">
+                        <a class="text-decoration-none" href="#products">
+                            <div class="cat-item d-flex flex-column align-items-center mb-4" onclick="filterCards('Seafood')">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Seafood.jpg" alt="">
                                 </div>
@@ -111,8 +112,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                        <a class="text-decoration-none" href="">
-                            <div class="cat-item d-flex flex-column align-items-center mb-4">
+                        <a class="text-decoration-none" href="#products">
+                            <div class="cat-item d-flex flex-column align-items-center mb-4" onclick="filterCards('Produce')">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Produce.jpg" alt="">
                                 </div>
@@ -122,8 +123,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                        <a class="text-decoration-none" href="">
-                            <div class="cat-item d-flex flex-column align-items-center mb-4">
+                        <a class="text-decoration-none" href="#products">
+                            <div class="cat-item d-flex flex-column align-items-center mb-4" onclick="filterCards('Bread and Baked Goods')">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/BreadAndBakedGoods.jpg" alt="">
                                 </div>                                    
@@ -133,8 +134,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                        <a class="text-decoration-none" href="">
-                            <div class="cat-item d-flex flex-column align-items-center mb-4">
+                        <a class="text-decoration-none" href="#products">
+                            <div class="cat-item d-flex flex-column align-items-center mb-4" onclick="filterCards('Cereal and Grains')">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/CerealAndGrains.jpg" alt="">
                                 </div>
@@ -144,8 +145,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                        <a class="text-decoration-none" href="">
-                            <div class="cat-item d-flex flex-column align-items-center mb-4">
+                        <a class="text-decoration-none" href="#products">
+                            <div class="cat-item d-flex flex-column align-items-center mb-4" onclick="filterCards('Canned and Packaged Goods')">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/CannedAndPackagedGoods.jpg" alt="">
                                 </div>
@@ -155,8 +156,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                        <a class="text-decoration-none" href="">
-                            <div class="cat-item d-flex flex-column align-items-center mb-4">
+                        <a class="text-decoration-none" href="#products">
+                            <div class="cat-item d-flex flex-column align-items-center mb-4" onclick="filterCards('Snacks')">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Snacks.jpg" alt="" style="width: 100%; height: 100%;">
                                 </div>
@@ -166,8 +167,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                        <a class="text-decoration-none" href="">
-                            <div class="cat-item d-flex flex-column align-items-center mb-4">
+                        <a class="text-decoration-none" href="#products">
+                            <div class="cat-item d-flex flex-column align-items-center mb-4" onclick="filterCards('Beverages')">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Beverages.jpg" alt="">
                                 </div>
@@ -177,8 +178,8 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                        <a class="text-decoration-none" href="">
-                            <div class="cat-item d-flex flex-column align-items-center mb-4">
+                        <a class="text-decoration-none" href="#products">
+                            <div class="cat-item d-flex flex-column align-items-center mb-4" onclick="filterCards('Frozen Foods')">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/FrozenFoods.jpg" alt="">
                                 </div>
@@ -196,8 +197,9 @@
 
 
     </div>
-    <div>
+    <div id="products">
         <div class="container mt-5" >
+            <h2 class="section-title position-relative text-uppercase "><span class="pr-3">Products</span></h2>
             <div class="row">
                 <!-- Product cards go here -->
                 <div class="row mt-4" id="productCards"> 
@@ -367,11 +369,31 @@
                 event.preventDefault();
             }
             });
+
+           
+
+            
             
         });
 
-    </script>
+        function filterCards(department) {
+        // get all card titles
+        var cardCategories = document.querySelectorAll('.card-category');
+        
+        // loop through all card titles
+        for (var i = 0; i < cardCategories.length; i++) {
+        var category = cardCategories[i].textContent.trim();
+        
+        // if the title matches the category, show the card; otherwise hide it
+        if (category === department) {
+            cardCategories[i].parentNode.parentNode.parentNode.style.display = 'block';
+        } else {
+            cardCategories[i].parentNode.parentNode.parentNode.style.display = 'none';
+        }
+        }
+    }
 
+    </script>
 
 </body>
 

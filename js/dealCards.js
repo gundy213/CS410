@@ -13,6 +13,7 @@ fetch("../json/deals.json")
                 `<img src="${data.deal[i].image[0]}"alt="${data.deal[i].name}"class="card-img-top">\n` +
                 `<div class="card-body">\n` +
                 `<h5 class="card-title">${data.deal[i].name}</h5>\n` +
+                // `<p class="card-text d-none d-md-block">${data.products[i].department}</p>\n` +
                 `<p class="card-text">${data.deal[i].description}</p>\n` +
                 `<p class="card-text">Old Price: <del>$${data.deal[i].oldprice}</del></p>\n` +
                 `<p class="card-text">Price: $${data.deal[i].price}</p>\n` +
