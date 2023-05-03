@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#products" onclick="filterCards(*)">Products</a>
+                            <a class="nav-link" href="#products" onclick="filterCards('all')">Products</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#deals">Deals</a>
@@ -424,7 +424,7 @@
         var category = cardCategories[i].textContent.trim();
         
         // if the title matches the category, show the card; otherwise hide it
-        if (category === department) {
+        if (category === department || department === "all") {
             cardCategories[i].parentNode.parentNode.parentNode.style.display = 'block';
         } else {
             cardCategories[i].parentNode.parentNode.parentNode.style.display = 'none';
