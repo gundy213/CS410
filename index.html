@@ -10,12 +10,11 @@
     <link href="styles.css" rel="stylesheet">
     <script type="text/javascript" src="js/dealCards.js"></script>
     <script type="text/javascript" src="js/productCard.js"></script>
-    <!-- <script type="text/javascript" src="js/script.js"></script> -->
 </head>
 
-<body>
+<body style="background-color: #9e9e9e36;">
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Glizzy Gourmands</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -58,8 +57,9 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-xl">
-                <div class="mt-4 p-5 bg-primary text-white rounded" style="background-image: url('images/smorgasbord.jpg'); background-size: cover;">
+                <div class="mt-5 p-5 bg-primary text-white rounded" style="background-image: url('images/smorgasbord.jpg'); background-size: cover;">
                     <h1 Style="text-shadow: 2px 2px 2px rgba(0,0,0,0.7); text-align: center;">Glizzy Gourmands</h1>
+                    <br>
                     <h2 Style="text-shadow: 2px 2px 2px rgba(0,0,0,0.7); text-align: center;">Feast on Premium Cuts, Fresh to Your Doorstep: Glizzy Gobblers - Your Meaty Marvel in the World
                         of Online Food Shopping!</h2>
                 </div>
@@ -68,30 +68,23 @@
                 <div class="container mt-5">
                     <h2 class="section-title position-relative text-uppercase "><span class="pr-3">Deals</span></h2>
                     <div class="row">
-                        
                         <!-- Deals cards go here -->
-                        <div class="row" id="dealCards">
-                                
+                        <div class="row" id="dealCards">        
                         </div>
-                        
-        
                     </div>
                 </div>
             </div>
             <div class="container-fluid pt-5">
                 <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="pr-3">Categories</span></h2>
-                <div class="row px-xl-5 pb-3">
-                    
+                <div class="row px-xl-5 pb-3">                
                     <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                         <a class="text-decoration-none" href="">
                             <div class="cat-item d-flex flex-column align-items-center mb-4">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Dairy.jpg" alt="">
                                 </div>
-                               
-                                    <h6>Dairy</h6>
-                                    <small class="text-body">100 Products</small>
-                                
+                                <h6>Dairy</h6>
+                                <small class="text-body">100 Products</small>
                             </div>
                         </a>
                     </div>
@@ -101,8 +94,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/MeatAndPoultry.jpg" alt="">
                                 </div>
-                                    <h6>Meat and Poutry</h6>
-                                    <small class="text-body">100 Products</small>                      
+                                <h6>Meat and Poutry</h6>
+                                <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -112,8 +105,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Seafood.jpg" alt="">
                                 </div>
-                                    <h6>Seafood</h6>
-                                    <small class="text-body">100 Products</small>                      
+                                <h6>Seafood</h6>
+                                <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -123,8 +116,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Produce.jpg" alt="">
                                 </div>
-                                    <h6>Produce</h6>
-                                    <small class="text-body">100 Products</small>                      
+                                <h6>Produce</h6>
+                                <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -133,9 +126,9 @@
                             <div class="cat-item d-flex flex-column align-items-center mb-4">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/BreadAndBakedGoods.jpg" alt="">
-                                </div>
-                                    <h6>Breads and Baked Goods</h6>
-                                    <small class="text-body">100 Products</small>                      
+                                </div>                                    
+                                <h6>Breads and Baked Goods</h6>
+                                <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -145,8 +138,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/CerealAndGrains.jpg" alt="">
                                 </div>
-                                    <h6>Cereal and Grains</h6>
-                                    <small class="text-body">100 Products</small>                      
+                                <h6>Cereal and Grains</h6>
+                                <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -156,8 +149,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/CannedAndPackagedGoods.jpg" alt="">
                                 </div>
-                                    <h6>Canned and Packaged Goods</h6>
-                                    <small class="text-body">100 Products</small>                      
+                                <h6>Canned and Packaged Goods</h6>
+                                <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -167,8 +160,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Snacks.jpg" alt="" style="width: 100%; height: 100%;">
                                 </div>
-                                    <h6>Snacks</h6>
-                                    <small class="text-body">100 Products</small>                      
+                                <h6>Snacks</h6>
+                                <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -178,8 +171,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/Beverages.jpg" alt="">
                                 </div>
-                                    <h6>Beverages</h6>
-                                    <small class="text-body">100 Products</small>                      
+                                <h6>Beverages</h6>
+                                <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -189,8 +182,8 @@
                                 <div class="overflow-hidden">
                                     <img class="img-fluid" src="images/FrozenFoods.jpg" alt="">
                                 </div>
-                                    <h6>Frozen Foods</h6>
-                                    <small class="text-body">100 Products</small>                      
+                                <h6>Frozen Foods</h6>
+                                <small class="text-body">100 Products</small>                      
                             </div>
                         </a>
                     </div>
@@ -219,7 +212,6 @@
 
     <!-- Add Bootstrap 5 JS link -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
 
         $(document).ready(function () {
