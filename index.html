@@ -41,7 +41,10 @@
                                     <ul class="list-group cart-items">
                                         <!-- Cart items will be dynamically added here -->
                                     </ul>
-                                    <p class="total-price">Total Price: $0.00</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="total-price m-0">Total Price: $0.00</p>
+                                        <button class="btn btn-success btn-sm checkout-from-cart me-2 text-nowrap d-none" style="width: auto;">Checkout</button>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -240,7 +243,6 @@
                             '<div class="d-flex justify-content-between align-items-center">' +
                                 '<span class="cart-item-price">$' + productPrice.toFixed(2) + '</span>' +
                                 '<div class="d-flex align-items-center">' +
-                                    '<button class="btn btn-success btn-sm checkout-from-cart me-2 text-nowrap">Checkout</button>' +
                                     '<div class="d-flex align-items-center">' +
                                         '<button class="btn btn-danger btn-sm remove-all-from-cart text-nowrap">Remove All</button>' +
                                     '</div>' +
@@ -248,7 +250,9 @@
                             '</div>' +
                         '</div>' +
                     '</li>';
-                    $(".cart-items").append(cartItemHtml);
+                    $('.cart-items').append(cartItemHtml);
+                    $('.checkout-from-cart').removeClass('d-none');
+                    
                 }
 
                 totalPrice = 0; // Reset total price to 0
@@ -304,6 +308,9 @@
                 });
                 $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
                 updateCartCount();
+                if(totalPrice == 0) {
+                    $('.checkout-from-cart').addClass('d-none');
+                }
             });
 
             // Remove all from Cart button click event handler
@@ -323,7 +330,9 @@
                     });
                     $(".total-price").text("Total Price: $" + totalPrice.toFixed(2)); // Update total price in the HTML
                     updateCartCount();
-                    
+                    if(totalPrice == 0) {
+                    $('.checkout-from-cart').addClass('d-none');
+                }
                 }
             });
 
