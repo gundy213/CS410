@@ -1,69 +1,69 @@
 {
     "deal": [
         {
-            "id": 900,
-            "name": "product1",
-            "description": "Description of Product 1",
-            "department": "Dairy",
-            "oldprice": 9.99,
-            "price": 7.99,
+            "id": 24,
+            "name": "Organic Raspberries",
+            "description": "Juicy and flavorful raspberries, packed with antioxidants.",
+            "department": "Produce",
+            "oldprice": 6.99,
+            "price": 5.99,
             "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
+            "../images/placeholder.jpg"
             ]
         },
         {
-            "id": 901,
-            "name": "product2",
-            "description": "Description of Product 2",
-            "department": "Dairy",
-            "oldprice": 19.99,
-            "price": 7.99,
-            "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
-            ]
-        },
-        {
-            "id": 903,
-            "name": "product3",
-            "description": "Description of Product 3",
-            "department": "Dairy",
-            "oldprice": 14.99,
-            "price": 7.99,
-            "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
-            ]
-        },
-        {
-            "id": 904,
-            "name": "product4",
-            "description": "Description of Product 4",
-            "department": "Dairy",
-            "oldprice": 21.99,
-            "price": 7.99,
-            "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
-            ]
-        },
-        {
-            "id": 905,
-            "name": "product5",
-            "description": "Description of Product 5",
-            "department": "Dairy",
-            "oldprice": 56.99,
-            "price": 7.99,
-            "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
-            ]
-        },
-        {
-            "id": 906,
-            "name": "product6",
-            "description": "Description of Product 6",
-            "department": "Dairy",
+            "id": 22,
+            "name": "Organic Cucumbers",
+            "description": "Cool and refreshing cucumbers, perfect for salads and sandwiches.",
+            "department": "Produce",
             "oldprice": 1.99,
-            "price": 7.99,
+            "price": 1.49,
             "image": [
-                "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTmNMpXOC16ueX8H2E0pb0XxP3TAlVRnFckZL6euwfg6H8nii1ywsDCd5Agl5FteHXj"
+               "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Fresh Tilapia",
+            "description": "Mild and flaky white fish, perfect for grilling and baking.",                
+            "department": "Seafood",
+            "oldprice": 9.99,         
+            "price": 7.99,       
+            "image": [
+               "../images/placeholder.jpg"
+            ]
+        },                    
+        {             
+            "id": 18,
+            "name": "Organic Green Beans",
+            "description": "Tender and delicious green beans, packed with nutrients.",
+            "department": "Produce",
+            "oldprice": 2.99,
+            "price": 1.99,
+            "image": [
+                "../images/placeholder.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Organic Avocado",
+            "description": "Creamy and nutritious avocado, perfect for guacamole and salads.",
+            "department": "Produce",
+            "oldprice": 1.99,
+            "price": 1.49,
+            "image": [
+                "../images/placeholder.jpg"
+             ]
+        },
+        {
+            "id": 17,
+            "name": "Multi-Grain Bread",
+            "description": "A healthy and flavorful bread, made with multiple grains.",
+            "department": "Bakery",
+            "oldprice": 3.99,
+            "price": 3.29,
+            "image": [
+                "../images/placeholder.jpg"
             ]
         }
     ]
