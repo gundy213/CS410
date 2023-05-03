@@ -336,40 +336,60 @@
                 }
             });
 
-            // Checkout from Cart button click event handler that generates a order number and invoice
-            $(".cart-items").on("click", ".checkout-from-cart", function () {
-                var cartItem = $(this).closest(".list-group-item");
-                var productId = cartItem.data("product-id");
-                var productName = $(this).siblings(".card-title").text();
-                var productPrice = parseFloat(cartItem.find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
-                var quantity = parseInt(cartItem.find(".cart-item-quantity").text());
-                var totalPrice = productPrice * quantity;
-                var orderNumber = Math.floor(Math.random() * 1000000000) + 1;
-                var invoiceHtml = '<div class="invoice">' +
-                    '<div class="invoice-header">' +
-                        '<h3>Invoice #' + orderNumber + '</h3>' +
-                        '<p>Thank you for your order!</p>' +
-                    '</div>' +
-                    '<div class="invoice-body">' +
-                        '<div class="invoice-product">' +
-                            '<div class="invoice-product-image">' +
-                                '<img src="' + cartItem.find(".card-img-top").attr("src") + '" alt="' + productName + '">' +
-                            '</div>' +
-                            '<div class="invoice-product-info">' +
-                                '<h4>' + productName + '</h4>' +
-                                '<p>Quantity: ' + quantity + '</p>' +
-                                '<p>Price: $' + productPrice.toFixed(2) + '</p>' +
-                            '</div>' +
-                        '</div>' +
-                        '<div class="invoice-total-price">' +
-                            '<h4>Total Price: $' + totalPrice.toFixed(2) + '</h4>' +
+            //Checkout button click event handler that generates a random order number and an invoice of the products in the cart
+            $(".checkout-from-cart").on("click", function () {
+                var orderNumber = Math.floor(Math.random() * 1000000000);
+                //get the total price of all items and append it to the invoice
+                var totalPrice = 0;
+                $(".cart-items .list-group-item").each(function () {
+                    var quantity = parseInt($(this).find(".cart-item-quantity").text());
+                    var price = parseFloat($(this).find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+                    totalPrice += (quantity * price);
+                });
+                var invoiceHtml = '<div class="container">' +
+                    '<div class="row">' +
+                        '<div class="col-12">' +
+                            '<h1 class="text-center">Invoice</h1>' +
+                            '<h2 class="text-center">Order Number: ' + orderNumber + '</h2>' +
+                            '<table class="table table-bordered">' +
+                                '<thead>' +
+                                    '<tr>' +
+                                        '<th>Product Name</th>' +
+                                        '<th>Quantity</th>' +
+                                        '<th>Price</th>' +
+                                    '</tr>' +
+                                '</thead>' +
+                                '<tbody>';
+                $(".cart-items .list-group-item").each(function () {
+                    var productName = $(this).find(".cart-item-name").text();
+                    var quantity = parseInt($(this).find(".cart-item-quantity").text());
+                    var price = parseFloat($(this).find(".cart-item-price").text().replace(/[^0-9.]/g, ""));
+                    invoiceHtml += '<tr>' +
+                                        '<td>' + productName + '</td>' +
+                                        '<td>' + quantity + '</td>' +
+                                        '<td>$' + price.toFixed(2) + '</td>' +
+                                    '</tr>';
+                });
+                invoiceHtml += '</tbody>' +
+                            '</table>' +
                         '</div>' +
                     '</div>' +
                 '</div>';
-                $(".cart-items").html(invoiceHtml);
-                $(".total-price").remove();
-                $(".cart-count").remove();
+                $(".cart-items").empty();
+                $(".total-price").text("Total Price: $0.00");
+                updateCartCount();
+                $('.checkout-from-cart').addClass('d-none');
+                $('.cart-empty').removeClass('d-none');
+                $('.cart-empty').append(invoiceHtml);
+                invoiceHtml += '<h3 class="text-center">Total Price: $' + totalPrice.toFixed(2) + '</h3>';
+
+                console.log(invoiceHtml);
+                //display invoiceHtml in a new window
+                var myWindow = window.open("", "Invoice", "width=600,height=600");
+                myWindow.document.write(invoiceHtml);
+
             });
+
             
 
             
