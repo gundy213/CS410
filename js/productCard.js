@@ -1,7 +1,8 @@
 //stores html code
-var fullCode = "";
+var fullProducts = "";
 
 //retireves local JSON file
+res = "";
 fetch("../json/products.json")
     //reads json file
     .then(res => res.json())
@@ -21,9 +22,9 @@ fetch("../json/products.json")
             //logs for testing, can remove if wanted later
             console.log(productCard);
             //add single card to the  fullCode varaiable 
-            fullCode = fullCode + productCard;
+            fullProducts = fullProducts + productCard;
         }
         //writes to "productCards" id html selector 
-        document.getElementById("productCards").innerHTML = fullCode;
+        document.getElementById("productCards").innerHTML = fullProducts;
     }
     );
