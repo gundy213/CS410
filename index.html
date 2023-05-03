@@ -27,7 +27,7 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Deals</a>
+                            <a class="nav-link" href="#dealCards">Deals</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./login.html">Profile</a>
@@ -408,6 +408,11 @@
             
             
         });
+
+        //skip to deals handler for clicking on deals in the nav bar
+        function skipToDeals() {
+            document.getElementById("deals").scrollIntoView();
+        }
 
     </script>
 
